@@ -86,6 +86,20 @@ input {
 .edit:active {
 	transform: scale(0.8);
 }
+.cancel {
+	background-color: transparent;
+	border: 1px solid #4f4f4f;
+	outline: none;
+	cursor: pointer;
+	color: #4f4f4f;
+	transition: all 0.3s ease-out;
+}
+.cancel:hover {
+	background-color: #e7e7e7;
+}
+.cancel:active {
+	transform: scale(0.8);
+}
 .twocol {
 	margin: 2rem;
 }

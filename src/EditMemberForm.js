@@ -36,7 +36,7 @@ const EditMemberForm = (props) => {
                     <label>Username</label>
                     <input type= "text" name = "username" value = {member.username} onChange = {handleChange}  />
                     <button className="update">Update Member</button>              
-                    <button className="delete" onClick={() => props.setEditing(false)}>Cancel</button>              
+                    <button className="cancel" onClick={() => props.setEditing(false)}>Cancel</button>              
                 </form>  
         </div>
     )
